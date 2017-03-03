@@ -1,0 +1,19 @@
+{
+	"name": "johnmaster208/tlshandshake",
+	"description": "checks the type of TLS handshakes on a domain using nmap port scanning.",
+	"license": "MIT",
+	"keywords": ["nmap","tls","ssl"],
+	"authors": [{
+		"name": "John Richardson",
+		"email": "johnmaster208@gmail.com"
+	}],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"johnmaster208\\tlshandshake\\": "src"
+		}
+	}
+}
