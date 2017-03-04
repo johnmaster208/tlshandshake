@@ -12,8 +12,12 @@
 		"phpunit/phpunit": "4.*"
 	},
 	"autoload": {
+		"psr-0": {
+			"TLSHandshake": "src/",
+			"TLSHandshake\\Tests\\": "tests/"
+		},
 		"psr-4": {
-			"johnmaster208\\tlshandshake\\": "src"
+			"johnmaster208\\TLSHandshake\\": "src/"
 		}
 	}
 }
