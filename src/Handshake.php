@@ -47,7 +47,6 @@ class Handshake {
 					shell_exec('clear');
 					echo "Testing $name ($host)..." . PHP_EOL;
 					$nmap = exec("nmap --script ssl-enum-ciphers -p 443 $host",$output);
-					echo '<pre>'.print_r($output,true).'</pre>';
 
 				} catch (Exception $e) {
 					echo 'Caught exception: ',  $e->getMessage(), "\n";
